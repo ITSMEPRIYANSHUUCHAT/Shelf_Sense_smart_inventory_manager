@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-04-20,S001,P0009,Groceries,North,130,106,39,103.82,24.75,5,Rainy,1,21.9,Winter
+2022-04-20,S001,P0012,Groceries,East,178,21,78,16.38,84.13,20,Rainy,0,84.54,Spring
+2022-04-20,S001,P0016,Groceries,East,62,5,134,19.37,76.28,10,Rainy,1,79.56,Autumn
+2022-04-20,S002,P0006,Groceries,East,350,322,180,313.32,47.39,5,Snowy,0,44.17,Winter
+2022-04-20,S002,P0009,Groceries,East,76,26,97,45.24,10.9,20,Snowy,1,8.07,Spring
+2022-04-20,S002,P0014,Groceries,North,323,100,92,105.87,51.95,0,Snowy,0,49.95,Autumn
+2022-04-20,S002,P0018,Groceries,West,54,37,116,52.96,71.05,20,Sunny,0,72.23,Spring
+2022-04-20,S002,P0019,Groceries,South,435,316,71,331.45,33.49,5,Sunny,1,35.24,Spring
+2022-04-20,S003,P0003,Groceries,South,337,322,159,329.53,21.49,0,Cloudy,0,24.27,Summer
+2022-04-20,S003,P0015,Groceries,West,164,113,68,120.03,40.73,5,Sunny,1,45.45,Autumn
+2022-04-20,S003,P0018,Groceries,East,107,104,150,96.3,88.08,0,Snowy,0,87.51,Spring
+2022-04-20,S003,P0020,Groceries,South,375,245,29,247.32,41.84,15,Cloudy,1,37.75,Winter
+2022-04-20,S004,P0001,Groceries,East,230,78,180,70.55,43.15,20,Sunny,0,38.63,Autumn
+2022-04-20,S004,P0006,Groceries,East,179,142,83,149.88,30.51,10,Rainy,0,30.87,Spring
+2022-04-20,S004,P0009,Groceries,East,311,195,78,207.85,50.92,10,Sunny,1,52.46,Spring
+2022-04-20,S004,P0013,Groceries,East,411,331,81,331.61,85.71,5,Cloudy,0,82.73,Summer
+2022-04-20,S004,P0015,Groceries,North,291,91,98,96.46,91.94,15,Cloudy,0,95.46,Autumn
+2022-04-20,S005,P0006,Groceries,South,270,91,61,102.92,31.46,5,Rainy,0,28.16,Autumn
+2022-04-20,S005,P0007,Groceries,North,118,83,112,97.51,36.35,0,Rainy,0,36.17,Autumn
+2022-04-20,S005,P0010,Groceries,South,365,231,177,229.52,21.21,0,Rainy,0,17.13,Autumn
+2022-04-20,S005,P0015,Groceries,West,94,88,33,101.06,79.02,20,Rainy,0,81.66,Autumn
+2022-04-20,S005,P0019,Groceries,South,405,109,62,108.88,44.57,20,Rainy,1,46.91,Winter

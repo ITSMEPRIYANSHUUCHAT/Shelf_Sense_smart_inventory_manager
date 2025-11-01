@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-01-30,S001,P0004,Groceries,East,350,276,142,280.91,91.46,20,Sunny,1,95.14,Winter
+2023-01-30,S001,P0009,Groceries,South,185,3,162,-5.12,23.35,15,Cloudy,1,25.77,Summer
+2023-01-30,S001,P0010,Groceries,South,282,162,186,157.24,23.8,10,Rainy,1,27.5,Autumn
+2023-01-30,S001,P0011,Groceries,West,333,92,139,91.3,16.91,10,Snowy,1,16.55,Autumn
+2023-01-30,S001,P0013,Groceries,East,174,70,38,84.65,91.91,5,Cloudy,0,87.22,Summer
+2023-01-30,S001,P0017,Groceries,North,422,294,35,308.43,69.17,5,Sunny,0,73.56,Spring
+2023-01-30,S002,P0008,Groceries,East,287,142,149,151.05,97.65,0,Sunny,0,95.6,Winter
+2023-01-30,S002,P0009,Groceries,North,367,114,192,113.28,59.15,10,Cloudy,1,61.11,Spring
+2023-01-30,S002,P0015,Groceries,West,71,60,67,57.69,38.96,15,Cloudy,0,34.2,Winter
+2023-01-30,S002,P0019,Groceries,West,107,13,126,12.49,39.8,10,Cloudy,0,36.8,Autumn
+2023-01-30,S003,P0001,Groceries,South,337,190,159,208.17,85.13,5,Rainy,0,85.07,Spring
+2023-01-30,S003,P0008,Groceries,East,119,60,57,74.67,24.85,5,Cloudy,1,26.27,Autumn
+2023-01-30,S003,P0012,Groceries,North,449,227,47,225.02,19.61,20,Rainy,1,24.45,Autumn
+2023-01-30,S003,P0020,Groceries,North,456,95,29,93.19,66.26,20,Rainy,1,70.35,Spring
+2023-01-30,S004,P0002,Groceries,East,376,180,188,183.25,71.08,5,Sunny,0,66.63,Spring
+2023-01-30,S004,P0003,Groceries,East,414,68,22,59.59,50.84,0,Rainy,1,55.14,Summer
+2023-01-30,S004,P0005,Groceries,North,97,4,118,-4.77,23.88,10,Cloudy,0,28.63,Summer
+2023-01-30,S004,P0008,Groceries,North,74,28,74,26.72,13.86,0,Sunny,0,17.43,Winter
+2023-01-30,S004,P0012,Groceries,North,166,129,57,145.76,18.29,20,Cloudy,1,17.71,Spring
+2023-01-30,S004,P0018,Groceries,West,374,126,146,128.65,34.06,15,Cloudy,0,30.99,Autumn
+2023-01-30,S005,P0004,Groceries,East,240,236,154,227.12,72.87,10,Rainy,0,74.33,Winter
+2023-01-30,S005,P0019,Groceries,West,89,4,72,16.05,83.23,0,Sunny,0,87.75,Winter

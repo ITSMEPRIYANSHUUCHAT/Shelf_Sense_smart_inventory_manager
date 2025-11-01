@@ -1,0 +1,25 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-10-07,S001,P0002,Groceries,East,371,61,146,65.71,78.93,20,Sunny,0,82.61,Summer
+2023-10-07,S001,P0003,Groceries,South,454,290,153,301.25,17.92,10,Sunny,1,21.31,Summer
+2023-10-07,S001,P0005,Groceries,East,149,5,57,10.37,17.28,20,Snowy,0,14.89,Summer
+2023-10-07,S001,P0010,Groceries,West,288,97,159,102.96,80.39,5,Rainy,1,79.81,Winter
+2023-10-07,S001,P0014,Groceries,North,147,84,21,80.22,79.35,10,Sunny,1,82.56,Autumn
+2023-10-07,S001,P0015,Groceries,East,464,127,68,144.48,22.99,10,Rainy,0,24.62,Summer
+2023-10-07,S001,P0017,Groceries,South,307,160,176,174.63,71.66,20,Snowy,1,75.53,Winter
+2023-10-07,S002,P0002,Groceries,West,394,79,23,92.0,24.14,10,Rainy,1,22.36,Winter
+2023-10-07,S002,P0006,Groceries,North,179,15,200,11.51,85.68,15,Sunny,1,83.85,Autumn
+2023-10-07,S002,P0009,Groceries,West,187,186,91,176.49,70.16,5,Sunny,0,74.0,Spring
+2023-10-07,S002,P0011,Groceries,East,213,140,163,148.83,24.8,15,Snowy,0,28.35,Autumn
+2023-10-07,S002,P0014,Groceries,South,444,230,194,227.24,80.79,10,Sunny,0,80.51,Spring
+2023-10-07,S002,P0020,Groceries,North,321,320,101,331.75,41.12,15,Cloudy,0,45.32,Winter
+2023-10-07,S003,P0001,Groceries,North,367,47,199,65.7,29.03,0,Rainy,1,29.46,Summer
+2023-10-07,S003,P0005,Groceries,North,138,87,98,84.35,57.99,20,Snowy,0,55.01,Summer
+2023-10-07,S003,P0006,Groceries,West,86,37,90,36.88,32.33,20,Rainy,0,27.69,Winter
+2023-10-07,S003,P0012,Groceries,South,111,23,93,23.7,70.96,20,Rainy,0,73.68,Spring
+2023-10-07,S003,P0016,Groceries,South,156,144,100,151.51,34.65,5,Rainy,1,32.03,Summer
+2023-10-07,S004,P0001,Groceries,North,473,160,73,155.33,31.45,10,Sunny,0,31.81,Spring
+2023-10-07,S004,P0007,Groceries,East,145,32,196,48.27,97.15,10,Sunny,1,95.13,Spring
+2023-10-07,S004,P0012,Groceries,South,277,185,193,191.31,83.11,20,Snowy,0,79.34,Spring
+2023-10-07,S004,P0018,Groceries,West,267,210,30,211.36,17.01,10,Sunny,1,16.01,Autumn
+2023-10-07,S005,P0004,Groceries,West,373,266,181,264.8,80.95,20,Cloudy,1,83.87,Winter
+2023-10-07,S005,P0015,Groceries,East,197,99,106,114.98,94.58,5,Rainy,0,92.88,Autumn

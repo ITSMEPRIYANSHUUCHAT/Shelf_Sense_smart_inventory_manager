@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-10-29,S001,P0017,Groceries,South,171,70,60,79.01,10.06,15,Sunny,1,5.67,Spring
+2022-10-29,S001,P0020,Groceries,North,395,382,33,373.15,48.31,0,Cloudy,1,49.03,Autumn
+2022-10-29,S002,P0001,Groceries,East,190,189,32,182.91,27.93,5,Rainy,1,24.31,Winter
+2022-10-29,S002,P0006,Groceries,South,435,351,89,356.89,55.92,20,Sunny,0,54.94,Summer
+2022-10-29,S002,P0007,Groceries,South,61,60,157,58.99,61.29,0,Cloudy,1,57.83,Spring
+2022-10-29,S003,P0004,Groceries,East,436,27,116,23.33,30.72,20,Rainy,0,35.31,Summer
+2022-10-29,S003,P0008,Groceries,West,453,267,181,285.86,83.45,15,Rainy,1,85.85,Spring
+2022-10-29,S003,P0011,Groceries,East,375,144,143,157.53,30.03,15,Cloudy,0,33.09,Summer
+2022-10-29,S003,P0013,Groceries,North,480,130,55,144.94,82.87,5,Snowy,0,82.68,Autumn
+2022-10-29,S003,P0018,Groceries,East,409,237,141,237.99,83.66,15,Snowy,0,85.9,Summer
+2022-10-29,S003,P0019,Groceries,North,197,59,188,53.32,18.19,15,Snowy,0,17.85,Autumn
+2022-10-29,S004,P0002,Groceries,North,68,66,24,58.08,73.13,5,Snowy,0,75.98,Spring
+2022-10-29,S004,P0006,Groceries,West,157,28,44,34.1,24.59,0,Rainy,1,28.13,Autumn
+2022-10-29,S004,P0008,Groceries,West,446,115,175,115.37,41.94,10,Sunny,1,44.67,Spring
+2022-10-29,S004,P0011,Groceries,West,203,34,39,36.72,66.22,15,Rainy,1,62.8,Summer
+2022-10-29,S004,P0016,Groceries,North,201,139,198,134.38,18.98,5,Cloudy,0,15.03,Spring
+2022-10-29,S004,P0019,Groceries,West,338,116,200,113.21,87.21,15,Rainy,1,84.8,Spring
+2022-10-29,S005,P0003,Groceries,North,53,32,51,40.6,98.28,5,Rainy,1,101.47,Winter
+2022-10-29,S005,P0006,Groceries,North,97,63,195,56.95,17.96,15,Snowy,0,19.78,Summer
+2022-10-29,S005,P0012,Groceries,West,268,7,62,22.7,65.63,5,Snowy,1,69.27,Autumn
+2022-10-29,S005,P0015,Groceries,East,87,28,196,43.5,56.73,0,Rainy,0,60.33,Spring
+2022-10-29,S005,P0018,Groceries,East,471,30,81,35.55,16.37,10,Sunny,1,14.33,Winter

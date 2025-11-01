@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-01-24,S001,P0001,Groceries,North,445,407,110,404.58,42.97,15,Snowy,1,38.76,Autumn
+2023-01-24,S001,P0004,Groceries,West,146,16,107,14.24,56.28,15,Snowy,0,55.57,Spring
+2023-01-24,S001,P0006,Groceries,North,295,137,59,155.02,97.39,5,Sunny,1,95.38,Summer
+2023-01-24,S001,P0014,Groceries,East,280,104,73,121.4,98.57,0,Cloudy,1,103.46,Winter
+2023-01-24,S001,P0016,Groceries,North,481,51,41,44.03,98.74,15,Snowy,0,100.23,Summer
+2023-01-24,S001,P0017,Groceries,West,407,225,151,233.27,82.72,0,Cloudy,0,83.49,Spring
+2023-01-24,S001,P0018,Groceries,West,305,4,193,12.06,36.15,15,Sunny,1,38.5,Summer
+2023-01-24,S002,P0003,Groceries,North,374,333,49,340.03,29.3,20,Rainy,0,26.12,Winter
+2023-01-24,S002,P0007,Groceries,East,350,21,73,13.48,30.17,0,Sunny,1,32.7,Summer
+2023-01-24,S002,P0009,Groceries,East,127,49,184,67.07,12.57,15,Snowy,0,12.75,Summer
+2023-01-24,S003,P0010,Groceries,West,378,120,75,110.03,82.57,20,Snowy,1,84.63,Summer
+2023-01-24,S003,P0017,Groceries,North,394,9,115,9.37,40.76,15,Rainy,1,42.92,Winter
+2023-01-24,S004,P0006,Groceries,North,246,185,68,179.68,46.75,0,Snowy,0,49.03,Autumn
+2023-01-24,S004,P0012,Groceries,North,388,213,153,209.2,68.95,0,Rainy,1,65.5,Summer
+2023-01-24,S004,P0015,Groceries,East,347,55,56,65.33,11.49,20,Cloudy,1,9.7,Spring
+2023-01-24,S004,P0016,Groceries,West,240,233,55,223.37,96.11,15,Rainy,1,96.58,Winter
+2023-01-24,S005,P0001,Groceries,East,380,8,140,2.24,78.69,20,Snowy,1,81.44,Spring
+2023-01-24,S005,P0009,Groceries,South,66,30,109,41.38,89.4,10,Rainy,0,91.31,Summer
+2023-01-24,S005,P0010,Groceries,West,493,101,195,106.46,15.11,10,Rainy,1,19.53,Autumn
+2023-01-24,S005,P0011,Groceries,West,155,89,20,107.51,49.56,15,Sunny,1,44.79,Autumn
+2023-01-24,S005,P0016,Groceries,East,316,104,105,108.27,12.46,0,Rainy,0,8.76,Spring
+2023-01-24,S005,P0019,Groceries,West,484,12,38,13.59,87.51,15,Snowy,0,87.79,Autumn

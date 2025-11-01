@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-07-13,S001,P0004,Groceries,South,266,20,44,26.27,46.89,0,Cloudy,0,44.29,Autumn
+2022-07-13,S001,P0011,Groceries,South,118,95,127,101.33,91.55,0,Sunny,0,89.83,Autumn
+2022-07-13,S001,P0014,Groceries,East,80,50,33,43.5,53.41,0,Sunny,0,57.46,Winter
+2022-07-13,S001,P0017,Groceries,East,260,123,176,142.47,60.15,15,Cloudy,1,62.69,Winter
+2022-07-13,S001,P0018,Groceries,South,411,82,37,77.71,84.36,5,Cloudy,1,85.42,Spring
+2022-07-13,S001,P0019,Groceries,West,193,160,185,174.33,32.46,0,Rainy,1,28.33,Spring
+2022-07-13,S001,P0020,Groceries,North,462,456,185,458.04,46.16,20,Sunny,0,49.92,Summer
+2022-07-13,S002,P0002,Groceries,West,159,139,111,136.97,35.07,10,Sunny,1,35.6,Spring
+2022-07-13,S002,P0004,Groceries,West,257,242,113,249.44,71.83,10,Cloudy,0,69.1,Spring
+2022-07-13,S002,P0007,Groceries,North,474,210,35,210.26,72.7,20,Cloudy,0,72.54,Spring
+2022-07-13,S003,P0001,Groceries,West,280,158,100,157.82,61.55,5,Cloudy,1,66.2,Autumn
+2022-07-13,S003,P0003,Groceries,North,119,104,53,122.52,91.22,15,Cloudy,1,94.98,Summer
+2022-07-13,S003,P0004,Groceries,South,462,301,25,312.92,65.77,5,Cloudy,0,61.19,Summer
+2022-07-13,S003,P0010,Groceries,East,115,111,181,116.96,76.48,15,Cloudy,0,74.08,Spring
+2022-07-13,S003,P0017,Groceries,South,80,59,132,78.99,40.17,15,Sunny,1,37.62,Spring
+2022-07-13,S003,P0018,Groceries,West,247,245,53,253.47,29.44,15,Snowy,0,28.04,Autumn
+2022-07-13,S003,P0020,Groceries,East,461,176,33,169.62,76.9,10,Snowy,0,79.89,Summer
+2022-07-13,S004,P0008,Groceries,North,204,161,148,180.61,50.42,15,Rainy,1,49.42,Summer
+2022-07-13,S004,P0009,Groceries,North,161,43,185,44.2,11.7,15,Sunny,1,7.76,Spring
+2022-07-13,S005,P0002,Groceries,South,56,31,91,34.27,29.27,5,Snowy,1,32.8,Summer
+2022-07-13,S005,P0009,Groceries,South,272,97,136,100.39,93.72,15,Rainy,0,94.98,Summer
+2022-07-13,S005,P0016,Groceries,South,147,109,70,116.84,33.11,10,Snowy,0,36.7,Winter

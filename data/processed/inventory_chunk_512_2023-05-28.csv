@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-05-28,S001,P0003,Groceries,East,470,51,136,60.35,33.28,20,Sunny,0,32.83,Winter
+2023-05-28,S001,P0004,Groceries,East,308,64,37,78.33,25.18,5,Rainy,0,21.76,Summer
+2023-05-28,S001,P0009,Groceries,South,192,72,57,66.73,36.79,15,Snowy,1,38.58,Winter
+2023-05-28,S001,P0017,Groceries,South,489,105,142,98.32,21.05,15,Cloudy,1,19.47,Autumn
+2023-05-28,S002,P0002,Groceries,West,299,259,89,277.35,13.6,20,Cloudy,0,14.49,Autumn
+2023-05-28,S002,P0004,Groceries,East,228,60,158,65.97,69.4,0,Rainy,1,70.98,Autumn
+2023-05-28,S002,P0007,Groceries,North,175,92,148,100.83,98.37,10,Rainy,1,99.37,Winter
+2023-05-28,S002,P0008,Groceries,South,320,51,83,58.75,20.65,10,Cloudy,0,22.51,Autumn
+2023-05-28,S002,P0014,Groceries,West,393,58,31,71.97,95.88,20,Cloudy,0,97.44,Autumn
+2023-05-28,S002,P0017,Groceries,South,128,64,58,56.54,97.79,5,Rainy,0,93.32,Summer
+2023-05-28,S002,P0019,Groceries,East,448,15,131,30.42,65.31,10,Snowy,1,67.49,Summer
+2023-05-28,S002,P0020,Groceries,East,300,167,197,170.99,91.63,10,Cloudy,0,92.53,Autumn
+2023-05-28,S003,P0001,Groceries,West,497,177,39,178.83,94.08,5,Snowy,1,94.99,Winter
+2023-05-28,S003,P0011,Groceries,East,117,38,98,46.22,68.74,10,Cloudy,0,69.87,Winter
+2023-05-28,S003,P0013,Groceries,North,163,139,69,130.45,23.92,15,Sunny,1,21.7,Autumn
+2023-05-28,S003,P0017,Groceries,North,468,40,22,37.45,44.51,5,Cloudy,0,41.24,Winter
+2023-05-28,S004,P0005,Groceries,East,166,68,104,80.88,50.48,5,Snowy,0,54.83,Spring
+2023-05-28,S004,P0010,Groceries,West,270,104,109,119.26,67.64,20,Snowy,0,70.15,Spring
+2023-05-28,S005,P0001,Groceries,East,486,132,162,131.03,97.95,5,Sunny,1,101.66,Summer
+2023-05-28,S005,P0003,Groceries,North,88,61,166,64.2,73.09,10,Sunny,1,77.16,Winter
+2023-05-28,S005,P0005,Groceries,North,466,332,29,341.02,93.87,20,Snowy,1,96.62,Spring
+2023-05-28,S005,P0017,Groceries,South,74,5,100,0.76,11.78,5,Snowy,1,13.63,Spring

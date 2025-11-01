@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-06-21,S001,P0001,Groceries,North,403,191,137,182.13,79.86,0,Snowy,1,76.93,Summer
+2022-06-21,S001,P0007,Groceries,West,278,116,69,135.27,83.41,20,Cloudy,0,85.38,Spring
+2022-06-21,S001,P0010,Groceries,North,389,96,130,90.58,81.95,10,Cloudy,0,78.92,Winter
+2022-06-21,S001,P0011,Groceries,North,359,200,89,190.38,59.66,20,Rainy,0,62.17,Autumn
+2022-06-21,S002,P0003,Groceries,North,284,120,182,119.38,88.82,10,Snowy,1,89.83,Spring
+2022-06-21,S002,P0006,Groceries,South,71,45,35,58.57,49.81,5,Snowy,0,46.46,Winter
+2022-06-21,S002,P0018,Groceries,East,60,18,20,35.97,32.37,15,Cloudy,0,37.31,Winter
+2022-06-21,S003,P0002,Groceries,West,457,322,49,331.75,96.86,0,Rainy,1,98.27,Winter
+2022-06-21,S003,P0003,Groceries,South,386,373,89,378.53,96.2,20,Cloudy,1,98.78,Spring
+2022-06-21,S003,P0005,Groceries,East,370,357,53,358.49,76.07,10,Sunny,0,75.14,Winter
+2022-06-21,S003,P0020,Groceries,North,103,22,109,35.91,95.87,5,Sunny,1,99.51,Summer
+2022-06-21,S004,P0007,Groceries,North,65,23,118,31.65,36.24,5,Sunny,0,39.12,Autumn
+2022-06-21,S004,P0008,Groceries,North,292,181,149,180.86,90.78,20,Cloudy,1,90.67,Winter
+2022-06-21,S004,P0010,Groceries,North,483,426,101,424.02,72.94,20,Sunny,1,72.72,Summer
+2022-06-21,S004,P0011,Groceries,East,417,275,147,276.97,94.08,0,Sunny,1,92.0,Autumn
+2022-06-21,S004,P0012,Groceries,South,93,30,109,21.93,42.98,5,Sunny,0,41.51,Summer
+2022-06-21,S004,P0017,Groceries,West,248,105,133,104.86,58.83,15,Cloudy,1,57.56,Spring
+2022-06-21,S005,P0007,Groceries,South,163,63,161,72.33,30.61,15,Cloudy,0,30.22,Spring
+2022-06-21,S005,P0010,Groceries,South,50,11,97,27.03,95.75,20,Cloudy,0,98.77,Winter
+2022-06-21,S005,P0015,Groceries,North,392,280,38,284.13,39.84,0,Snowy,1,41.68,Autumn
+2022-06-21,S005,P0018,Groceries,West,415,154,190,168.34,17.77,15,Sunny,1,13.92,Winter
+2022-06-21,S005,P0020,Groceries,East,413,237,175,233.33,15.41,0,Sunny,1,13.89,Spring

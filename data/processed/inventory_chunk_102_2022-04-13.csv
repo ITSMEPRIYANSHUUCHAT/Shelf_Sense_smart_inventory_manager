@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-04-13,S001,P0007,Groceries,South,500,403,21,395.67,24.37,0,Sunny,0,29.31,Winter
+2022-04-13,S001,P0015,Groceries,North,360,19,53,21.6,50.38,10,Rainy,1,45.46,Winter
+2022-04-13,S001,P0016,Groceries,West,119,114,137,121.81,78.53,10,Snowy,1,83.33,Autumn
+2022-04-13,S002,P0002,Groceries,North,83,65,28,59.02,34.75,20,Snowy,1,35.96,Winter
+2022-04-13,S002,P0005,Groceries,North,401,356,103,362.43,21.46,20,Snowy,0,20.49,Autumn
+2022-04-13,S002,P0006,Groceries,West,497,120,40,139.11,44.73,5,Rainy,0,48.24,Winter
+2022-04-13,S002,P0009,Groceries,West,213,23,43,27.86,75.22,10,Snowy,1,78.39,Autumn
+2022-04-13,S003,P0010,Groceries,South,228,1,23,-5.04,90.5,5,Sunny,0,86.7,Winter
+2022-04-13,S003,P0013,Groceries,North,413,204,188,197.6,58.01,5,Cloudy,1,62.08,Winter
+2022-04-13,S003,P0014,Groceries,West,295,212,186,209.54,22.85,15,Snowy,1,27.07,Autumn
+2022-04-13,S003,P0017,Groceries,South,76,60,83,78.23,78.8,20,Rainy,1,82.35,Winter
+2022-04-13,S004,P0001,Groceries,East,173,53,36,55.01,42.77,20,Rainy,0,46.39,Spring
+2022-04-13,S004,P0003,Groceries,West,327,278,144,283.58,94.49,10,Cloudy,0,89.92,Winter
+2022-04-13,S004,P0005,Groceries,West,76,31,33,27.03,48.97,5,Snowy,0,46.67,Summer
+2022-04-13,S004,P0007,Groceries,East,449,408,86,416.11,43.52,15,Snowy,0,40.54,Autumn
+2022-04-13,S004,P0008,Groceries,East,78,49,102,44.44,81.69,5,Cloudy,1,83.9,Summer
+2022-04-13,S004,P0014,Groceries,East,481,124,99,125.73,99.27,20,Cloudy,1,102.34,Spring
+2022-04-13,S005,P0002,Groceries,West,64,14,168,13.03,60.6,10,Snowy,1,61.1,Winter
+2022-04-13,S005,P0003,Groceries,North,466,432,32,447.53,84.07,10,Rainy,1,84.26,Summer
+2022-04-13,S005,P0012,Groceries,South,278,191,197,203.29,59.74,20,Rainy,1,61.47,Autumn
+2022-04-13,S005,P0016,Groceries,North,288,88,75,90.15,72.15,10,Rainy,1,71.01,Winter
+2022-04-13,S005,P0020,Groceries,North,157,154,55,173.87,43.33,5,Snowy,1,41.72,Winter

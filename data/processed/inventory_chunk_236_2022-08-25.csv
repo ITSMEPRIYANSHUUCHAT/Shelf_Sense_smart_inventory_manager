@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-08-25,S001,P0016,Groceries,North,241,122,29,141.81,40.49,5,Cloudy,0,42.05,Summer
+2022-08-25,S002,P0004,Groceries,East,93,20,115,17.13,55.01,0,Snowy,1,50.88,Winter
+2022-08-25,S002,P0005,Groceries,East,54,5,147,21.24,91.17,0,Rainy,1,88.16,Spring
+2022-08-25,S002,P0006,Groceries,South,483,420,193,412.69,46.74,5,Snowy,1,44.04,Winter
+2022-08-25,S002,P0011,Groceries,South,451,152,56,162.93,88.04,5,Sunny,0,90.34,Autumn
+2022-08-25,S002,P0017,Groceries,North,178,105,59,101.57,58.39,5,Cloudy,0,61.63,Spring
+2022-08-25,S002,P0020,Groceries,South,274,140,111,151.55,84.27,20,Snowy,1,80.93,Autumn
+2022-08-25,S003,P0001,Groceries,East,299,123,143,113.39,24.65,10,Cloudy,1,23.2,Winter
+2022-08-25,S003,P0007,Groceries,South,227,116,105,118.65,50.88,15,Snowy,0,54.73,Summer
+2022-08-25,S003,P0013,Groceries,North,244,192,74,199.39,11.75,20,Cloudy,1,11.28,Winter
+2022-08-25,S004,P0001,Groceries,South,61,6,128,4.25,23.09,10,Cloudy,1,25.01,Spring
+2022-08-25,S004,P0008,Groceries,North,490,469,64,464.89,13.59,0,Snowy,1,15.89,Spring
+2022-08-25,S004,P0015,Groceries,West,135,1,155,3.49,67.68,20,Cloudy,1,70.41,Summer
+2022-08-25,S004,P0019,Groceries,North,302,298,28,308.66,97.43,5,Cloudy,1,93.53,Summer
+2022-08-25,S005,P0004,Groceries,North,54,8,69,27.07,37.23,10,Cloudy,0,41.36,Autumn
+2022-08-25,S005,P0007,Groceries,South,315,278,129,273.24,56.43,15,Sunny,0,60.81,Summer
+2022-08-25,S005,P0009,Groceries,North,251,164,56,157.79,86.93,0,Rainy,1,83.39,Summer
+2022-08-25,S005,P0011,Groceries,East,472,420,166,437.64,17.54,10,Snowy,1,20.13,Spring
+2022-08-25,S005,P0012,Groceries,West,358,235,156,254.99,39.16,5,Rainy,1,34.57,Spring
+2022-08-25,S005,P0013,Groceries,West,406,396,59,415.8,96.09,0,Snowy,1,95.95,Summer
+2022-08-25,S005,P0017,Groceries,West,76,35,141,54.45,38.81,20,Sunny,0,41.17,Autumn
+2022-08-25,S005,P0020,Groceries,West,212,88,103,91.52,82.19,20,Cloudy,0,79.38,Winter

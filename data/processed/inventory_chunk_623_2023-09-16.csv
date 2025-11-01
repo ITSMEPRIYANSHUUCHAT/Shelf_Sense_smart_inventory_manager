@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-09-16,S001,P0009,Groceries,North,488,220,60,232.08,22.0,20,Cloudy,0,18.71,Spring
+2023-09-16,S001,P0013,Groceries,South,176,111,191,130.62,25.91,5,Sunny,1,27.27,Autumn
+2023-09-16,S001,P0019,Groceries,North,349,0,34,12.12,69.71,5,Sunny,1,69.47,Summer
+2023-09-16,S002,P0001,Groceries,North,325,162,173,156.78,71.5,5,Cloudy,0,74.94,Winter
+2023-09-16,S002,P0011,Groceries,East,333,148,46,152.03,73.39,10,Sunny,0,78.03,Spring
+2023-09-16,S002,P0014,Groceries,North,217,215,111,219.27,92.03,0,Cloudy,0,94.24,Autumn
+2023-09-16,S002,P0020,Groceries,East,434,403,197,404.0,81.84,0,Sunny,0,86.53,Winter
+2023-09-16,S003,P0006,Groceries,South,474,153,105,167.61,22.16,15,Cloudy,1,25.77,Autumn
+2023-09-16,S003,P0007,Groceries,West,64,24,199,37.5,73.31,10,Cloudy,1,71.81,Winter
+2023-09-16,S003,P0010,Groceries,East,227,56,120,70.14,53.77,0,Sunny,1,54.28,Winter
+2023-09-16,S003,P0011,Groceries,South,137,94,120,99.42,39.71,20,Snowy,1,42.1,Spring
+2023-09-16,S003,P0013,Groceries,South,102,93,175,87.01,36.36,10,Snowy,1,34.58,Autumn
+2023-09-16,S003,P0017,Groceries,East,136,91,174,86.44,84.57,15,Sunny,1,83.8,Summer
+2023-09-16,S004,P0003,Groceries,West,137,40,88,49.05,52.58,15,Sunny,0,56.44,Spring
+2023-09-16,S004,P0006,Groceries,North,111,71,117,88.79,48.48,10,Cloudy,0,51.88,Autumn
+2023-09-16,S004,P0007,Groceries,North,393,66,75,83.89,29.22,20,Snowy,1,32.54,Spring
+2023-09-16,S004,P0011,Groceries,North,161,43,35,58.06,62.55,20,Snowy,1,62.6,Summer
+2023-09-16,S004,P0014,Groceries,North,120,62,159,64.28,70.7,15,Rainy,0,67.96,Winter
+2023-09-16,S004,P0016,Groceries,South,295,29,199,48.66,36.66,5,Cloudy,0,36.87,Spring
+2023-09-16,S005,P0007,Groceries,East,326,232,83,228.81,79.13,20,Rainy,0,75.8,Summer
+2023-09-16,S005,P0008,Groceries,North,311,97,116,114.52,82.68,20,Snowy,0,77.87,Summer
+2023-09-16,S005,P0009,Groceries,West,444,125,198,116.12,12.24,20,Cloudy,0,11.36,Summer
