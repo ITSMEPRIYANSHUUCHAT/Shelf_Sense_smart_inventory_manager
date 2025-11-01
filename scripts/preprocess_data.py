@@ -34,7 +34,7 @@ weather_file = os.path.join(output_dir, 'weather_daily.csv')  # From combine scr
 weather_df = pd.read_csv(weather_file)
 weather_df['date'] = pd.to_datetime(weather_df['date'])
 # No filter needed; clean if desired (e.g., fill NaNs)
-weather_df.fillna(method='ffill', inplace=True)
+weather_df = weather_df.ffill()
 weather_df.to_csv(os.path.join(output_dir, 'weather_daily_clean.csv'), index=False)
 print(f"Processed weather: {len(weather_df)} rows")
 
@@ -43,7 +43,7 @@ promo_file = os.path.join(data_dir, 'promoted.csv')
 promo_df = pd.read_csv(promo_file)
 # No date column—add synthetic weeks based on index or card_tenure (proxy for time)
 promo_df['Synthetic_Week'] = pd.cut(promo_df['card_tenure'], bins=10, labels=range(1, 11))  # Group into 10 "weeks"
-weekly_promo = promo_df.groupby('Synthetic_Week').agg({
+weekly_promo = promo_df.groupby('Synthetic_Week',observed=True).agg({
     'resp': 'sum',  # Total responses
     'num_promoted': 'sum',
     'avg_bal': 'mean'  # Avg balance
