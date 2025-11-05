@@ -1,13 +1,16 @@
+import sys
+sys.path.insert(0, '/opt/airflow/scripts')
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from scripts.batch_ingest import batch_ingest_to_lake
 from scripts.stream_ingest import stream_ingest_to_hub
+from scripts.optimize import optimize_with_prediction   # <-- THIS THING YOU FORGOT
 
 dag = DAG(
     'ingestion_dag',
     default_args={'owner': 'shelf_sense', 'start_date': datetime(2025, 11, 1)},
-    schedule_interval='@daily',  # Or None for manual
+    schedule_interval='@daily',
     catchup=False
 )
 
@@ -30,5 +33,4 @@ optimize_task = PythonOperator(
 )
 
 stream_task >> optimize_task
-
-batch_task >> stream_task  # Run batch first
+batch_task >> stream_task

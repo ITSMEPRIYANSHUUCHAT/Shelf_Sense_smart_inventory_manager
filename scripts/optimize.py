@@ -3,9 +3,22 @@ from dotenv import load_dotenv
 from pymongo import MongoClient
 import pulp
 import pandas as pd
+from urllib.parse import quote_plus
 
 load_dotenv()
-MONGO_URI = os.getenv('MONGO_URI')
+# Escape username/password
+user = os.getenv('MONGO_USER')  # e.g., mongouser
+password = os.getenv('MONGO_PASS')  # e.g., mongopass
+cluster = os.getenv('MONGO_CLUSTER')  # e.g., cluster0.abcde.mongodb.net
+
+if not all([user, password, cluster]):
+    raise ValueError("Missing MongoDB credentials in .env")
+
+username = quote_plus(user)
+pwd = quote_plus(password)
+MONGO_URI = f"mongodb+srv://{username}:{pwd}@{cluster}?retryWrites=true&w=majority"
+
+client = MongoClient(MONGO_URI)
 
 def optimize_with_prediction():
     client = MongoClient(MONGO_URI)
