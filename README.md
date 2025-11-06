@@ -1,11 +1,47 @@
-# Shelf_Sense_smart_inventory_manager
-End-to-end data pipeline for perishable goods inventory optimization using Azure, Databricks, and Airflow
-Project: Smart Inventory Forecasting & Waste Reduction Pipeline for Perishable Goods ⚙️ Overview This project builds an end-to-end data engineering pipeline designed to optimize inventory and minimize waste for perishable goods. It integrates batch and streaming data, performs transformations and forecasting, and generates actionable insights to recommend reorder quantities and detect potential spoilage risks. The solution simulates a real-world supply chain scenario where multiple data streams—such as sales, weather, promotions, and inventory—need to be ingested, processed, analyzed, and visualized efficiently. 🎯 Objectives
+# 🚀 Shelf Sense: The Ultimate Inventory Beast Mode Pipeline 🔥
 
-Build a scalable data pipeline combining batch and real-time ingestion.
-Use Azure and Databricks services with a focus on low-cost and free-tier tools.
-Implement data transformations and model data in a star schema within Azure Synapse.
-Forecast demand and predict waste using Prophet/XGBoost models.
-Optimize reorder quantities using linear programming.
-Visualize key insights (forecast, waste, and inventory health) in Power BI or Metabase.
-Enforce data quality and orchestrate all workflows using Apache Airflow.
+**Conquer waste. Crush reorders. Rule perishable inventory.**
+
+Shelf Sense is an end-to-end **data engineering powerhouse** that transforms raw data into actionable insights — **forecasting demand, predicting spoilage, and optimizing reorders** like a boss.  
+Built for **speed, scale, and zero bullshit**, it’s your prototype to **simulate a real supply chain** with **automation, analytics, and dashboards — all on free-tier tools**.  
+
+---
+
+## 🧠 Project Overview
+
+Shelf Sense is designed to **optimize inventory and reduce waste** for perishable goods (think fruits, dairy, seafood — the stuff that spoils fast).
+
+It ingests **batch and streaming data**, cleans and transforms it into a **star schema**, **predicts spoilage risks**, **optimizes reorder quantities**, validates data quality, and visualizes results in **real time** — all orchestrated by Airflow.  
+No paid APIs. No cloud overkill. Just clean, efficient data flow.
+
+---
+
+## 🎯 Objectives
+
+✅ **Scalable Ingestion:** Batch + Streaming data from sales, weather, inventory, and promotions.  
+✅ **Data Transformation:** Model data into a **star schema** for deep analytical queries.  
+✅ **Spoilage Prediction:** Mock model flags risk when **Temp > 25°C + Humidity > 80%**.  
+✅ **Optimization:** Use **PuLP** for reorder quantities that **minimize waste and stockouts**.  
+✅ **Quality Control:** Validate every dataset using **Great Expectations**.  
+✅ **Visualization:** Streamlit for real-time dashboards, Power BI for analytical reports.  
+✅ **Automation:** Apache Airflow to run it all hands-free.  
+
+---
+
+## 🧩 Architecture Overview
+
+**From raw CSVs to optimized reorders — here’s how the beast moves:**
+
+```mermaid
+flowchart TD
+    A[Kaggle CSVs (data/raw)] --> B[Preprocess (scripts/preprocess_data.py)]
+    B --> C[Processed Files (data/processed)]
+    C --> D[Azure Data Lake (Batch Upload)]
+    C --> E[Azure Event Hubs (Stream Send)]
+    D & E --> F[Airflow DAG (dags/full_pipeline_dag.py)]
+    F --> G[Colab PySpark Transform -> Star Schema]
+    G --> H[MongoDB Atlas (fact_inventory, dim_products, dim_dates)]
+    H --> I[PuLP Optimize (scripts/optimize.py)]
+    I --> J[Validation (Great Expectations)]
+    J --> K[Streamlit UI (scripts/streamlit_ui.py)]
+    J --> L[Power BI Dashboard (dashboards/inventory_dashboard.pbix)]
