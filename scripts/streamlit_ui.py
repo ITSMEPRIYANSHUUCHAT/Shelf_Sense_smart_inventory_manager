@@ -22,7 +22,7 @@ if not all([user, password, cluster]):
 
 username = quote_plus(user)
 pwd = quote_plus(password)
-MONGO_URI = f"mongodb+srv://{username}:{pwd}@{cluster}?retryWrites=true&w=majority"
+MONGO_URI = os.getenv('MONGO_URI', f"mongodb+srv://{username}:{pwd}@{cluster}/shelfsensestorage?retryWrites=true&w=majority")
 
 # ---------------------------------------------------------
 # Streamlit page setup
