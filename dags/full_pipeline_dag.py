@@ -2,7 +2,8 @@ from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
-from airflow.operators.dummy import DummyOperator  # For skipping ingest
+from scripts.batch_ingest import batch_ingest_to_lake
+from scripts.stream_ingest import stream_ingest_to_hub
 from scripts.upload_to_drive import upload_to_drive
 from scripts.download_from_drive import download_from_drive
 from scripts.load_from_drive import load_from_drive
@@ -14,6 +15,7 @@ from pymongo import MongoClient
 import os
 load_dotenv()
 MONGO_URI = os.getenv('MONGO_URI')
+# FIXED: Raw GitHub URL (not blob)
 COLAB_NOTEBOOK_URL = 'https://raw.githubusercontent.com/ITSMEPRIYANSHUUCHAT/Shelf_Sense_smart_inventory_manager/main/notebooks/ShelfTransform.ipynb'
 client = MongoClient(MONGO_URI)
 db = client['shelf_sense_db']
@@ -25,20 +27,32 @@ dag = DAG(
     catchup=False
 )
 
-# Skip Batch and Stream: Dummy tasks
-skip_batch = DummyOperator(task_id='skip_batch_ingest', dag=dag)
-skip_stream = DummyOperator(task_id='skip_stream_ingest', dag=dag)
+batch_task = PythonOperator(task_id='batch_ingest', python_callable=batch_ingest_to_lake, dag=dag)
+stream_task = PythonOperator(task_id='stream_ingest', python_callable=stream_ingest_to_hub, dag=dag)
 
 upload_task = PythonOperator(task_id='upload_to_drive', python_callable=upload_to_drive, dag=dag)
 
+# FIXED: Raw URL + better error handling in bash
 run_colab = BashOperator(
     task_id='run_colab_transform',
     bash_command=f"""
     cd /tmp
     export MONGO_URI="{MONGO_URI}"
     curl -L -o input.ipynb "{COLAB_NOTEBOOK_URL}"
+    if [ ! -s input.ipynb ]; then
+        echo "Error: Notebook download failed or empty—check URL"
+        exit 1
+    fi
     papermill input.ipynb output.ipynb -p MONGO_URI "$MONGO_URI"
-    echo "Colab run complete—result.json in shelfstorage"
+    if [ -f result.json ]; then
+        echo "result.json created—encoding to b64"
+        python -c "import json, base64; with open('result.json', 'r') as f: data = json.load(f); b64 = base64.b64encode(json.dumps(data).encode()).decode(); open('result.b64', 'w').write(b64)"
+    else
+        echo "Error: result.json not created by notebook—check output cell"
+        ls -la /tmp | grep json
+        exit 1
+    fi
+    echo "Colab run complete—result.json ready"
     """,
     dag=dag
 )
@@ -55,5 +69,4 @@ optimize_task = PythonOperator(task_id='optimize_with_prediction', python_callab
 query_task = PythonOperator(task_id='query_insights', python_callable=query_insights, dag=dag)
 quality_task = PythonOperator(task_id='data_quality', python_callable=validate_data, dag=dag)
 
-# Flow: Skip Batch/Stream → Upload → Run Colab → Download → Load → Optimize → Query → Quality
-skip_batch >> skip_stream >> upload_task >> run_colab >> download_task >> load_task >> optimize_task >> query_task >> quality_task
+batch_task >> stream_task >> upload_task >> run_colab >> download_task >> load_task >> optimize_task >> query_task >> quality_task
