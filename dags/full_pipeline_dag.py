@@ -2,7 +2,7 @@ from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
-from scripts.preprocess_data import preprocess_data  # NEW: Preprocess task
+ 
 from scripts.batch_ingest import batch_ingest_to_lake
 from scripts.stream_ingest import stream_ingest_to_hub
 from scripts.upload_to_drive import upload_to_drive
@@ -25,11 +25,7 @@ dag = DAG(
 )
 
 # NEW: Preprocess Task (Kicks Off with Raw to Processed)
-preprocess_task = PythonOperator(
-    task_id='preprocess_data',
-    python_callable=preprocess_data,  # Your preprocess function
-    dag=dag
-)
+
 
 batch_task = PythonOperator(task_id='batch_ingest', python_callable=batch_ingest_to_lake, dag=dag)
 stream_task = PythonOperator(task_id='stream_ingest', python_callable=stream_ingest_to_hub, dag=dag)
@@ -59,4 +55,4 @@ query_task = PythonOperator(task_id='query_insights', python_callable=query_insi
 quality_task = PythonOperator(task_id='data_quality', python_callable=validate_data, dag=dag)
 
 # Flow: Preprocess → Batch → Stream → Upload → Poll for Manual Colab → Optimize → Query → Quality
-preprocess_task >> batch_task >> stream_task >> upload_task >> poll_flag >> optimize_task >> query_task >> quality_task
+batch_task >> stream_task >> upload_task >> poll_flag >> optimize_task >> query_task >> quality_task
