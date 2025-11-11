@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-03-31,S001,P0003,Groceries,West,427,141,196,145.43,42.88,10,Snowy,1,40.49,Winter
+2023-03-31,S001,P0011,Groceries,South,78,48,79,61.7,42.3,0,Rainy,0,43.25,Winter
+2023-03-31,S002,P0008,Groceries,West,295,107,109,107.86,90.37,5,Rainy,0,94.57,Summer
+2023-03-31,S002,P0009,Groceries,West,379,74,66,80.08,52.46,5,Snowy,1,48.99,Summer
+2023-03-31,S002,P0015,Groceries,South,473,294,64,290.87,40.84,20,Cloudy,1,38.02,Summer
+2023-03-31,S002,P0019,Groceries,South,245,65,156,66.56,54.08,15,Sunny,0,49.43,Spring
+2023-03-31,S003,P0001,Groceries,South,113,42,199,46.06,31.55,20,Snowy,1,27.76,Winter
+2023-03-31,S003,P0004,Groceries,West,412,405,35,423.97,45.95,0,Cloudy,0,41.9,Summer
+2023-03-31,S003,P0005,Groceries,West,343,203,23,204.88,58.83,20,Rainy,1,55.31,Autumn
+2023-03-31,S003,P0009,Groceries,South,215,82,119,99.94,10.97,10,Snowy,1,14.06,Spring
+2023-03-31,S003,P0014,Groceries,East,120,110,153,113.89,91.5,15,Sunny,0,92.21,Spring
+2023-03-31,S003,P0018,Groceries,South,401,89,141,90.14,54.07,0,Cloudy,0,54.28,Winter
+2023-03-31,S004,P0003,Groceries,East,476,421,138,440.74,69.45,20,Sunny,1,73.13,Summer
+2023-03-31,S004,P0004,Groceries,East,480,155,55,146.37,39.33,20,Snowy,0,35.63,Winter
+2023-03-31,S004,P0013,Groceries,North,475,406,26,410.41,65.87,10,Snowy,1,65.46,Summer
+2023-03-31,S004,P0018,Groceries,North,109,64,105,55.52,49.29,10,Sunny,0,47.52,Winter
+2023-03-31,S005,P0001,Groceries,West,148,148,133,149.86,97.19,20,Sunny,0,92.52,Winter
+2023-03-31,S005,P0005,Groceries,North,381,360,56,356.82,48.63,5,Rainy,1,44.81,Autumn
+2023-03-31,S005,P0008,Groceries,South,288,149,145,155.46,85.27,20,Sunny,1,83.28,Autumn
+2023-03-31,S005,P0009,Groceries,North,78,36,26,45.9,20.53,5,Sunny,0,24.47,Spring
+2023-03-31,S005,P0015,Groceries,North,84,37,39,32.53,47.91,10,Sunny,0,51.52,Summer
+2023-03-31,S005,P0016,Groceries,North,238,51,63,68.11,34.16,20,Snowy,1,36.58,Summer

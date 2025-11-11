@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-04-06,S001,P0001,Groceries,West,322,158,29,174.98,23.65,10,Rainy,0,20.38,Spring
+2022-04-06,S001,P0004,Groceries,North,179,6,133,7.19,28.15,20,Rainy,0,23.64,Spring
+2022-04-06,S001,P0007,Groceries,East,177,12,89,5.94,15.49,15,Rainy,0,15.44,Autumn
+2022-04-06,S001,P0009,Groceries,East,314,98,82,99.76,87.18,0,Sunny,0,87.19,Autumn
+2022-04-06,S001,P0011,Groceries,East,220,180,200,173.78,43.6,0,Snowy,1,39.64,Autumn
+2022-04-06,S001,P0012,Groceries,East,93,20,29,11.4,64.13,0,Cloudy,0,64.22,Autumn
+2022-04-06,S001,P0013,Groceries,South,383,166,124,182.87,47.93,0,Sunny,0,47.2,Winter
+2022-04-06,S001,P0014,Groceries,North,84,76,28,66.99,41.61,15,Sunny,1,46.61,Winter
+2022-04-06,S001,P0015,Groceries,North,60,60,159,59.57,70.77,15,Cloudy,0,72.21,Autumn
+2022-04-06,S001,P0019,Groceries,South,453,415,127,424.89,60.94,0,Sunny,0,65.61,Spring
+2022-04-06,S001,P0020,Groceries,West,371,217,96,223.81,16.4,15,Snowy,1,21.38,Winter
+2022-04-06,S002,P0005,Groceries,South,421,269,69,275.41,20.61,5,Rainy,1,17.62,Autumn
+2022-04-06,S002,P0016,Groceries,South,465,177,146,172.23,40.95,0,Snowy,0,40.43,Summer
+2022-04-06,S003,P0005,Groceries,North,413,63,89,59.7,65.26,5,Sunny,0,65.9,Winter
+2022-04-06,S003,P0011,Groceries,South,438,132,48,138.97,98.39,20,Cloudy,0,103.09,Winter
+2022-04-06,S003,P0015,Groceries,North,115,21,176,11.11,86.85,5,Cloudy,1,88.81,Spring
+2022-04-06,S004,P0002,Groceries,West,317,153,39,150.78,31.47,5,Snowy,1,29.48,Winter
+2022-04-06,S004,P0011,Groceries,West,311,181,38,196.35,99.73,0,Sunny,1,97.7,Autumn
+2022-04-06,S004,P0014,Groceries,West,179,56,117,54.78,20.81,15,Sunny,0,24.41,Summer
+2022-04-06,S005,P0001,Groceries,South,73,58,105,67.61,46.45,5,Cloudy,1,48.28,Spring
+2022-04-06,S005,P0009,Groceries,North,335,120,50,128.51,93.62,15,Sunny,1,93.1,Winter
+2022-04-06,S005,P0014,Groceries,West,241,229,102,232.65,94.68,0,Rainy,1,99.54,Spring

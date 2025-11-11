@@ -1,0 +1,21 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-04-26,S001,P0001,Groceries,South,489,452,98,442.38,29.14,10,Cloudy,0,29.25,Winter
+2022-04-26,S001,P0005,Groceries,South,478,120,143,132.56,87.09,20,Sunny,0,85.46,Winter
+2022-04-26,S001,P0007,Groceries,South,74,20,190,11.14,18.17,15,Snowy,1,19.04,Winter
+2022-04-26,S001,P0009,Groceries,North,476,461,76,476.79,67.72,0,Rainy,0,66.38,Summer
+2022-04-26,S001,P0013,Groceries,West,118,84,89,92.33,17.86,15,Rainy,1,19.32,Autumn
+2022-04-26,S001,P0017,Groceries,West,316,97,130,102.89,26.79,15,Rainy,1,22.61,Summer
+2022-04-26,S002,P0001,Groceries,West,448,320,76,317.69,85.07,0,Rainy,0,83.87,Winter
+2022-04-26,S002,P0004,Groceries,North,143,114,49,123.36,68.24,20,Sunny,1,70.79,Autumn
+2022-04-26,S002,P0006,Groceries,East,300,150,138,168.07,10.95,15,Snowy,0,12.08,Autumn
+2022-04-26,S002,P0007,Groceries,South,282,39,56,32.02,61.29,20,Snowy,1,56.96,Spring
+2022-04-26,S002,P0015,Groceries,South,243,189,138,205.48,47.25,20,Rainy,0,46.55,Autumn
+2022-04-26,S002,P0019,Groceries,North,223,92,133,100.85,13.88,10,Cloudy,0,16.58,Winter
+2022-04-26,S003,P0004,Groceries,East,344,311,189,301.08,69.69,5,Sunny,0,71.52,Summer
+2022-04-26,S004,P0007,Groceries,South,357,0,174,11.98,55.64,20,Cloudy,1,55.48,Summer
+2022-04-26,S004,P0019,Groceries,East,318,3,39,13.92,86.06,15,Snowy,1,81.81,Summer
+2022-04-26,S005,P0002,Groceries,West,376,23,164,21.75,22.1,0,Snowy,0,19.12,Winter
+2022-04-26,S005,P0013,Groceries,West,181,82,183,94.5,37.49,5,Snowy,0,37.12,Autumn
+2022-04-26,S005,P0016,Groceries,East,329,248,177,265.54,62.77,5,Cloudy,1,64.33,Autumn
+2022-04-26,S005,P0018,Groceries,East,84,33,151,46.79,94.71,0,Cloudy,0,97.27,Autumn
+2022-04-26,S005,P0019,Groceries,North,415,91,115,81.62,25.63,0,Snowy,1,24.21,Summer

@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-01-12,S001,P0002,Groceries,West,432,243,90,240.84,97.69,0,Cloudy,0,92.89,Winter
+2023-01-12,S001,P0003,Groceries,West,139,99,125,97.52,91.35,20,Snowy,1,86.76,Spring
+2023-01-12,S001,P0010,Groceries,South,427,354,198,353.42,67.64,0,Rainy,1,69.26,Autumn
+2023-01-12,S001,P0011,Groceries,North,395,244,28,236.57,50.95,0,Snowy,1,50.1,Spring
+2023-01-12,S001,P0013,Groceries,South,138,128,178,120.48,91.59,10,Snowy,0,91.66,Summer
+2023-01-12,S001,P0014,Groceries,North,465,328,113,324.27,99.69,0,Rainy,0,103.75,Autumn
+2023-01-12,S002,P0008,Groceries,East,478,322,111,314.46,44.58,15,Sunny,1,45.84,Winter
+2023-01-12,S002,P0010,Groceries,West,178,33,140,35.8,57.75,15,Snowy,0,53.79,Winter
+2023-01-12,S002,P0011,Groceries,East,366,339,79,357.77,62.97,5,Sunny,0,58.81,Spring
+2023-01-12,S002,P0012,Groceries,South,344,269,89,286.37,57.22,5,Snowy,1,54.62,Summer
+2023-01-12,S002,P0017,Groceries,South,145,28,115,34.96,39.1,15,Rainy,1,43.57,Spring
+2023-01-12,S003,P0001,Groceries,East,272,186,97,189.45,38.56,15,Cloudy,0,41.62,Spring
+2023-01-12,S003,P0002,Groceries,West,364,51,135,66.47,25.28,20,Rainy,1,23.47,Winter
+2023-01-12,S003,P0004,Groceries,North,390,365,57,381.56,75.74,5,Cloudy,1,74.1,Winter
+2023-01-12,S003,P0009,Groceries,South,477,139,192,144.32,92.98,10,Snowy,0,90.59,Autumn
+2023-01-12,S003,P0015,Groceries,East,459,80,118,86.93,67.83,0,Cloudy,0,62.85,Summer
+2023-01-12,S003,P0016,Groceries,West,127,3,114,-4.43,29.19,5,Cloudy,1,24.31,Autumn
+2023-01-12,S004,P0006,Groceries,North,162,61,174,76.56,19.62,10,Snowy,1,24.07,Autumn
+2023-01-12,S004,P0011,Groceries,North,311,133,152,138.35,69.73,20,Rainy,1,65.83,Autumn
+2023-01-12,S004,P0020,Groceries,East,106,35,85,52.52,27.32,10,Cloudy,0,26.62,Autumn
+2023-01-12,S005,P0003,Groceries,South,310,226,180,239.91,72.2,20,Rainy,1,72.52,Winter
+2023-01-12,S005,P0014,Groceries,North,119,92,92,111.96,81.81,0,Sunny,0,80.58,Autumn

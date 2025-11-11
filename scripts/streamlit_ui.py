@@ -5,7 +5,7 @@ from urllib.parse import quote_plus
 import os
 import pandas as pd
 import plotly.express as px
-from urllib.parse import quote_plus
+import time  # FIXED: Import time for sleep
 
 # ---------------------------------------------------------
 # Load environment variables
@@ -60,8 +60,11 @@ with col1:
 
     fact_df = pd.DataFrame(list(db['fact_inventory'].find()))
     if not fact_df.empty:
+        # FIXED: Merge with dim_products to connect ID with Name
+        dim_prod_df = pd.DataFrame(list(db['dim_products'].find()))
+        fact_df = fact_df.merge(dim_prod_df, on='Product_ID', how='left')  # Add Product_Name
         fact_df = fact_df[fact_df['predicted_waste_risk'].isin(risk_filter)]
-        st.dataframe(fact_df, use_container_width=True)
+        st.dataframe(fact_df[['Product_Name', 'Stock_Quantity', 'Units_Sold', 'predicted_waste_risk']], use_container_width=True)  # Show Name instead of ID
 
         # Key Metrics
         st.subheader("Key Metrics")
@@ -77,16 +80,21 @@ with col2:
 
     opt_df = pd.DataFrame(list(db['optimized_reorders'].find()))
     if not opt_df.empty:
-        st.dataframe(opt_df, use_container_width=True)
+        # FIXED: Merge with dim_products for Product_Name
+        dim_prod_df = pd.DataFrame(list(db['dim_products'].find()))
+        opt_df = opt_df.merge(dim_prod_df, on='Product_ID', how='left')
+        st.dataframe(opt_df[['Product_Name', 'Stock_Quantity', 'recommended_reorder']], use_container_width=True)  # Show Name
 
         # Interactive Chart
         fig = px.bar(
-            opt_df,
-            x='Product_ID',
+            opt_df.head(10),
+            x='Product_Name',  # FIXED: Use Name instead of ID
             y=['Stock_Quantity', 'recommended_reorder'],
             barmode='group',
-            title="Stock vs Recommended Reorder"
+            title="Stock vs Recommended Reorder",
+            labels={'Product_Name': 'Product', 'value': 'Quantity'}
         )
+        fig.update_layout(title_font_size=14, xaxis_title="Product", yaxis_title="Quantity")
         st.plotly_chart(fig, use_container_width=True)
     else:
         st.info("No optimized reorder data available yet.")
@@ -97,7 +105,10 @@ with col2:
 st.header("⚠️ High-Risk Alerts (From Queries)")
 alerts_df = pd.DataFrame(list(db['alerts'].find()))
 if not alerts_df.empty:
-    st.table(alerts_df[['Product_ID', 'Stock_Quantity', 'predicted_waste_risk']])
+    # FIXED: Merge with dim_products for Product_Name
+    dim_prod_df = pd.DataFrame(list(db['dim_products'].find()))
+    alerts_df = alerts_df.merge(dim_prod_df, on='Product_ID', how='left')
+    st.table(alerts_df[['Product_Name', 'Stock_Quantity', 'predicted_waste_risk']])  # Show Name
 else:
     st.info("No alerts—data is healthy! Run DAG for updates.")
 
@@ -105,16 +116,15 @@ else:
 # Realtime Refresh / Simulated Airflow Trigger
 # ---------------------------------------------------------
 st.header("🔄 Realtime Refresh")
-if st.button("Run Full Pipeline (Airflow DAG)"):
-    st.write("Triggering Airflow DAG... (Simulation)")
-    # Example placeholder for real API trigger:
-    # import requests
-    # requests.post(
-    #     'http://localhost:8080/api/v1/dags/full_pipeline_dag/dagRuns',
-    #     auth=('shelf_admin', 'shelf_pass123'),
-    #     json={"conf": {}}
-    # )
-    st.success("Pipeline triggered! Refresh page in 1 min for updates.")
+col1, col2 = st.columns(2)
+with col1:
+    if st.button("Run Full Pipeline (Airflow DAG)"):
+        st.write("Triggering Airflow DAG... (Simulation)")
+        st.success("Pipeline triggered! Refresh page in 1 min for updates.")
+with col2:
+    if st.button("Auto-Refresh (10s)"):
+        time.sleep(10)  # FIXED: time imported
+        st.rerun()
 
 # ---------------------------------------------------------
 # Footer

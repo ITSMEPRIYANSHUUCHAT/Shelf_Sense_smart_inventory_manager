@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-04-17,S001,P0002,Groceries,East,230,36,61,52.33,92.31,0,Cloudy,1,89.0,Winter
+2022-04-17,S001,P0004,Groceries,West,204,141,156,155.04,59.12,20,Rainy,0,59.19,Summer
+2022-04-17,S001,P0006,Groceries,West,257,30,136,46.18,86.69,5,Cloudy,1,86.68,Autumn
+2022-04-17,S001,P0007,Groceries,North,59,32,117,40.45,53.33,10,Sunny,1,51.91,Summer
+2022-04-17,S001,P0013,Groceries,South,272,241,146,231.28,50.55,15,Snowy,1,46.67,Winter
+2022-04-17,S002,P0002,Groceries,South,451,33,81,50.98,45.71,0,Rainy,0,47.7,Winter
+2022-04-17,S002,P0009,Groceries,East,83,54,43,68.01,51.11,5,Cloudy,0,49.94,Winter
+2022-04-17,S002,P0015,Groceries,East,128,37,70,39.31,74.72,0,Cloudy,0,75.23,Winter
+2022-04-17,S003,P0002,Groceries,West,353,87,128,87.0,65.76,15,Rainy,0,65.97,Summer
+2022-04-17,S003,P0007,Groceries,South,413,383,120,382.1,77.09,5,Cloudy,0,77.37,Spring
+2022-04-17,S003,P0017,Groceries,West,95,53,78,59.46,16.51,5,Sunny,0,11.99,Summer
+2022-04-17,S003,P0019,Groceries,North,386,177,171,172.82,52.99,0,Snowy,1,55.01,Summer
+2022-04-17,S004,P0004,Groceries,North,418,187,21,197.94,10.45,20,Rainy,1,13.33,Spring
+2022-04-17,S004,P0005,Groceries,South,77,36,191,48.32,55.23,5,Snowy,1,56.95,Spring
+2022-04-17,S004,P0006,Groceries,East,288,155,190,151.54,94.28,10,Cloudy,1,99.16,Winter
+2022-04-17,S004,P0012,Groceries,East,110,83,59,84.49,62.19,0,Cloudy,1,57.31,Spring
+2022-04-17,S004,P0013,Groceries,North,443,255,108,253.32,15.5,20,Sunny,1,17.62,Autumn
+2022-04-17,S004,P0016,Groceries,West,462,446,64,437.32,52.79,5,Snowy,0,50.79,Winter
+2022-04-17,S004,P0020,Groceries,North,187,152,114,155.51,20.16,10,Rainy,0,19.53,Spring
+2022-04-17,S005,P0003,Groceries,West,361,266,174,258.08,98.79,5,Rainy,0,94.07,Winter
+2022-04-17,S005,P0008,Groceries,South,72,67,45,71.79,37.59,20,Cloudy,0,37.5,Autumn
+2022-04-17,S005,P0020,Groceries,North,274,110,28,124.47,53.5,20,Cloudy,1,53.79,Spring

@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-03-07,S001,P0003,Groceries,North,494,166,60,173.02,50.12,15,Snowy,0,48.8,Autumn
+2023-03-07,S001,P0007,Groceries,East,388,311,159,308.09,61.75,15,Sunny,0,65.3,Winter
+2023-03-07,S001,P0009,Groceries,East,447,374,158,373.05,41.61,20,Snowy,0,44.49,Autumn
+2023-03-07,S001,P0010,Groceries,North,164,33,84,40.1,37.82,10,Snowy,0,40.43,Winter
+2023-03-07,S001,P0017,Groceries,East,453,385,84,378.64,74.0,10,Cloudy,0,71.79,Winter
+2023-03-07,S001,P0018,Groceries,North,148,31,198,41.12,82.08,0,Sunny,1,86.75,Summer
+2023-03-07,S002,P0013,Groceries,East,437,108,119,98.94,63.5,10,Sunny,0,64.66,Spring
+2023-03-07,S002,P0020,Groceries,North,296,186,41,195.07,19.97,10,Sunny,0,20.47,Spring
+2023-03-07,S003,P0002,Groceries,North,437,343,31,350.06,36.76,10,Cloudy,0,41.75,Spring
+2023-03-07,S003,P0008,Groceries,West,192,139,85,151.91,85.61,15,Snowy,1,81.88,Summer
+2023-03-07,S003,P0014,Groceries,East,52,41,190,48.39,42.33,5,Sunny,1,44.78,Summer
+2023-03-07,S004,P0002,Groceries,West,258,200,145,193.68,76.43,20,Snowy,0,79.78,Autumn
+2023-03-07,S004,P0005,Groceries,North,245,29,34,34.42,78.44,15,Sunny,1,76.68,Winter
+2023-03-07,S004,P0010,Groceries,West,87,21,65,14.81,37.3,5,Sunny,0,41.64,Autumn
+2023-03-07,S004,P0012,Groceries,North,73,38,186,33.81,48.76,20,Rainy,1,47.92,Spring
+2023-03-07,S004,P0019,Groceries,East,246,216,147,233.21,30.5,20,Cloudy,0,32.78,Autumn
+2023-03-07,S005,P0003,Groceries,North,284,254,48,252.18,41.23,10,Cloudy,1,36.64,Summer
+2023-03-07,S005,P0004,Groceries,South,103,35,52,51.15,89.97,5,Cloudy,1,90.66,Spring
+2023-03-07,S005,P0012,Groceries,West,333,124,135,140.63,35.35,0,Sunny,1,36.38,Spring
+2023-03-07,S005,P0013,Groceries,West,316,29,62,46.64,70.95,20,Cloudy,1,70.24,Autumn
+2023-03-07,S005,P0019,Groceries,North,207,185,175,183.97,67.12,20,Snowy,0,69.67,Winter
+2023-03-07,S005,P0020,Groceries,South,359,173,48,170.05,25.64,5,Snowy,1,22.26,Winter

@@ -7,6 +7,8 @@ x-airflow-common-env: &airflow-common-env
   AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
   PYSPARK_SUBMIT_ARGS: --master local[*] pyspark-shell
   SPARK_DRIVER_MEMORY: 2g
+  # Path inside containers where the key will be mounted
+  DRIVE_SERVICE_ACCOUNT_KEY_PATH: /opt/airflow/drive_service_account.json
 
 services:
   postgres:
@@ -40,7 +42,7 @@ services:
       - postgres
     environment:
       <<: *airflow-common-env
-    env_file:  # NEW
+    env_file:
       - .env
     user: "${AIRFLOW_UID:-50000}:0"
     command: >
@@ -49,12 +51,17 @@ services:
       airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
       "
     volumes:
+      - ./token.json:/opt/airflow/token.json:ro
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
+      - ./spark-3.5.3-bin-hadoop3:/opt/airflow/spark-3.5.3-bin-hadoop3:ro
       - ./plugins:/opt/airflow/plugins
       - ./data:/opt/airflow/data
       - ./scripts:/opt/airflow/scripts
       - ./.env:/opt/airflow/.env
+      - ./ShelfTransform.ipynb:/opt/airflow/ShelfTransform.ipynb
+      # mount service account key (read-only)
+      - ./token.json:/opt/airflow/token.json:ro
     restart: on-failure
 
   airflow-webserver:
@@ -63,15 +70,21 @@ services:
       - airflow-init
     environment:
       <<: *airflow-common-env
-    env_file:  # NEW
+    env_file:
       - .env
     volumes:
+      - ./token.json:/opt/airflow/token.json:ro
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
+      - ./ShelfTransform.ipynb:/opt/airflow/ShelfTransform.ipynb
       - ./plugins:/opt/airflow/plugins
       - ./data:/opt/airflow/data
       - ./scripts:/opt/airflow/scripts
+      - ./spark-3.5.3-bin-hadoop3:/opt/airflow/spark-3.5.3-bin-hadoop3:ro
       - ./.env:/opt/airflow/.env
+      # mount service account key (read-only)
+      - ./token.json:/opt/airflow/token.json:ro
+      - ./drive_service_account.json:/opt/airflow/drive_service_account.json:ro
     ports:
       - 8080:8080
     user: "${AIRFLOW_UID:-50000}:0"
@@ -88,15 +101,21 @@ services:
       - airflow-init
     environment:
       <<: *airflow-common-env
-    env_file:  # NEW
+    env_file:
       - .env
     volumes:
+      - ./token.json:/opt/airflow/token.json:ro
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
+      - ./spark-3.5.3-bin-hadoop3:/opt/airflow/spark-3.5.3-bin-hadoop3:ro
+      - ./ShelfTransform.ipynb:/opt/airflow/ShelfTransform.ipynb
       - ./plugins:/opt/airflow/plugins
       - ./data:/opt/airflow/data
       - ./scripts:/opt/airflow/scripts
       - ./.env:/opt/airflow/.env
+      # mount service account key (read-only)
+      - ./token.json:/opt/airflow/token.json:ro
+      - ./drive_service_account.json:/opt/airflow/drive_service_account.json:ro
     user: "${AIRFLOW_UID:-50000}:0"
     command: scheduler
     restart: always

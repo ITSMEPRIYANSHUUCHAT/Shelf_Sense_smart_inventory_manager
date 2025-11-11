@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-08-12,S001,P0004,Groceries,East,55,0,98,-8.34,53.56,0,Rainy,0,56.74,Winter
+2023-08-12,S001,P0005,Groceries,West,248,7,78,-2.68,37.73,10,Cloudy,1,40.7,Summer
+2023-08-12,S001,P0010,Groceries,South,178,118,86,110.31,88.55,10,Snowy,1,91.02,Spring
+2023-08-12,S001,P0016,Groceries,East,79,47,164,62.3,81.09,5,Snowy,1,85.21,Autumn
+2023-08-12,S001,P0019,Groceries,West,496,394,94,413.51,26.61,0,Sunny,0,31.55,Autumn
+2023-08-12,S001,P0020,Groceries,South,144,142,131,151.92,18.76,0,Sunny,1,20.86,Spring
+2023-08-12,S002,P0004,Groceries,North,176,100,95,91.54,18.64,0,Rainy,0,20.17,Spring
+2023-08-12,S003,P0008,Groceries,East,498,389,163,394.21,83.98,10,Snowy,1,88.74,Spring
+2023-08-12,S003,P0017,Groceries,West,108,26,37,44.04,59.7,10,Cloudy,0,59.1,Summer
+2023-08-12,S003,P0018,Groceries,East,344,113,162,116.1,22.28,15,Rainy,0,20.22,Summer
+2023-08-12,S003,P0020,Groceries,West,96,2,46,11.32,55.22,10,Snowy,1,58.68,Winter
+2023-08-12,S004,P0015,Groceries,North,283,256,179,271.48,98.32,20,Sunny,1,96.41,Spring
+2023-08-12,S004,P0016,Groceries,South,349,181,179,177.72,20.88,0,Snowy,1,23.99,Summer
+2023-08-12,S004,P0019,Groceries,West,85,8,190,18.57,73.01,10,Snowy,0,70.35,Autumn
+2023-08-12,S004,P0020,Groceries,West,275,266,187,268.05,93.79,15,Sunny,0,92.19,Spring
+2023-08-12,S005,P0001,Groceries,East,455,151,92,164.9,29.88,5,Rainy,1,28.79,Spring
+2023-08-12,S005,P0002,Groceries,South,440,12,43,26.49,50.11,0,Rainy,1,47.95,Spring
+2023-08-12,S005,P0005,Groceries,South,123,34,33,27.33,55.08,0,Sunny,1,54.3,Winter
+2023-08-12,S005,P0006,Groceries,East,485,335,61,349.14,29.46,0,Rainy,0,26.16,Summer
+2023-08-12,S005,P0010,Groceries,West,397,273,105,284.62,95.68,20,Rainy,0,94.09,Spring
+2023-08-12,S005,P0012,Groceries,South,268,59,184,49.29,70.73,5,Rainy,0,75.18,Summer
+2023-08-12,S005,P0018,Groceries,South,459,45,113,36.41,80.55,20,Sunny,1,79.6,Summer

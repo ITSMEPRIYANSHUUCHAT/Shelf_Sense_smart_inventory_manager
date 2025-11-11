@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-10-12,S001,P0011,Groceries,South,471,102,162,120.87,37.23,10,Snowy,1,40.14,Winter
+2023-10-12,S001,P0014,Groceries,East,415,397,64,396.64,43.6,15,Rainy,0,41.75,Summer
+2023-10-12,S001,P0018,Groceries,West,385,93,80,109.51,73.78,15,Cloudy,0,73.92,Summer
+2023-10-12,S001,P0019,Groceries,South,337,234,88,238.8,58.92,5,Cloudy,1,58.16,Summer
+2023-10-12,S002,P0001,Groceries,South,298,227,141,233.94,85.17,5,Rainy,0,86.79,Spring
+2023-10-12,S002,P0011,Groceries,North,125,84,158,79.62,99.0,15,Rainy,0,95.18,Spring
+2023-10-12,S002,P0016,Groceries,East,457,396,138,387.13,96.79,0,Sunny,1,93.48,Autumn
+2023-10-12,S003,P0001,Groceries,East,189,79,37,95.34,60.29,5,Rainy,1,57.47,Winter
+2023-10-12,S003,P0003,Groceries,South,388,351,83,364.99,85.86,0,Sunny,0,83.41,Spring
+2023-10-12,S003,P0005,Groceries,West,359,231,90,246.02,82.26,10,Snowy,0,78.29,Autumn
+2023-10-12,S003,P0009,Groceries,West,161,26,192,29.19,28.93,5,Snowy,0,32.15,Winter
+2023-10-12,S003,P0012,Groceries,South,416,404,41,416.0,30.83,10,Rainy,1,35.1,Autumn
+2023-10-12,S004,P0003,Groceries,South,482,357,92,357.89,10.62,15,Sunny,1,7.67,Winter
+2023-10-12,S004,P0005,Groceries,South,209,65,172,80.94,56.11,15,Snowy,1,54.61,Summer
+2023-10-12,S004,P0009,Groceries,North,462,45,124,47.06,19.88,10,Sunny,0,23.91,Autumn
+2023-10-12,S004,P0011,Groceries,West,53,35,31,46.77,10.17,0,Snowy,0,8.02,Winter
+2023-10-12,S004,P0012,Groceries,South,208,200,196,200.94,54.15,5,Cloudy,1,50.95,Autumn
+2023-10-12,S004,P0018,Groceries,South,230,96,48,94.33,31.55,5,Rainy,0,27.56,Summer
+2023-10-12,S005,P0001,Groceries,East,118,42,92,50.89,70.79,20,Sunny,1,70.32,Winter
+2023-10-12,S005,P0003,Groceries,West,313,99,61,115.91,45.58,5,Cloudy,1,47.26,Autumn
+2023-10-12,S005,P0010,Groceries,East,395,151,95,161.02,58.49,0,Snowy,0,58.6,Winter
+2023-10-12,S005,P0014,Groceries,South,388,57,185,47.68,27.27,20,Sunny,1,26.01,Autumn

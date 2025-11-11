@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-11-05,S001,P0004,Groceries,East,453,293,83,289.88,71.01,10,Sunny,1,76.0,Spring
+2023-11-05,S001,P0005,Groceries,North,292,287,36,297.27,73.28,10,Cloudy,1,72.69,Autumn
+2023-11-05,S001,P0008,Groceries,East,475,359,34,356.4,91.97,0,Snowy,1,95.97,Summer
+2023-11-05,S001,P0015,Groceries,East,449,312,37,309.84,87.13,20,Sunny,0,92.07,Winter
+2023-11-05,S002,P0015,Groceries,East,265,192,36,208.91,68.28,10,Sunny,1,71.14,Autumn
+2023-11-05,S002,P0018,Groceries,East,119,73,117,64.7,64.36,15,Rainy,0,62.76,Spring
+2023-11-05,S002,P0019,Groceries,East,442,56,60,53.52,97.96,15,Snowy,0,102.53,Summer
+2023-11-05,S003,P0004,Groceries,South,225,61,24,61.63,54.11,15,Rainy,0,52.1,Winter
+2023-11-05,S003,P0006,Groceries,West,92,38,20,41.22,15.17,20,Cloudy,1,14.26,Winter
+2023-11-05,S003,P0011,Groceries,West,460,182,191,175.74,30.18,15,Snowy,0,30.95,Spring
+2023-11-05,S003,P0013,Groceries,North,266,212,168,206.6,16.96,5,Rainy,1,20.8,Summer
+2023-11-05,S003,P0014,Groceries,South,238,29,112,25.2,62.58,5,Snowy,0,64.87,Summer
+2023-11-05,S003,P0017,Groceries,South,177,147,66,164.61,49.18,10,Cloudy,0,47.69,Winter
+2023-11-05,S003,P0018,Groceries,South,482,420,156,429.99,64.14,10,Cloudy,0,64.03,Spring
+2023-11-05,S004,P0014,Groceries,East,425,199,180,194.02,90.35,20,Rainy,0,90.47,Summer
+2023-11-05,S004,P0019,Groceries,East,80,30,175,36.71,82.47,0,Rainy,0,81.4,Autumn
+2023-11-05,S004,P0020,Groceries,North,350,277,32,269.19,58.54,10,Snowy,0,58.27,Autumn
+2023-11-05,S005,P0002,Groceries,North,498,39,34,29.22,57.7,15,Snowy,1,57.17,Spring
+2023-11-05,S005,P0005,Groceries,East,146,71,142,75.99,54.67,5,Sunny,0,55.94,Spring
+2023-11-05,S005,P0006,Groceries,East,399,31,51,35.97,84.78,20,Rainy,0,82.74,Winter
+2023-11-05,S005,P0018,Groceries,North,206,24,127,34.87,45.53,5,Sunny,0,42.13,Summer
+2023-11-05,S005,P0019,Groceries,West,278,191,194,207.64,96.33,0,Cloudy,1,100.12,Spring

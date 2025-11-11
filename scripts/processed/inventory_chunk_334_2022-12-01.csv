@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-12-01,S001,P0001,Groceries,South,256,191,37,203.68,81.28,20,Cloudy,0,81.53,Autumn
+2022-12-01,S001,P0003,Groceries,West,296,157,108,153.92,35.08,5,Snowy,0,31.29,Summer
+2022-12-01,S001,P0009,Groceries,West,405,127,170,141.81,35.98,5,Sunny,1,33.21,Spring
+2022-12-01,S001,P0011,Groceries,South,120,55,150,56.53,63.36,20,Rainy,0,59.6,Spring
+2022-12-01,S001,P0013,Groceries,West,81,11,126,17.81,71.51,5,Rainy,1,66.65,Winter
+2022-12-01,S001,P0015,Groceries,East,404,216,195,233.48,65.79,5,Rainy,0,69.6,Summer
+2022-12-01,S001,P0016,Groceries,North,76,55,81,63.5,49.01,10,Rainy,0,48.36,Winter
+2022-12-01,S002,P0003,Groceries,West,345,249,190,251.8,54.78,15,Rainy,1,49.96,Summer
+2022-12-01,S002,P0004,Groceries,North,116,19,196,17.63,32.38,20,Rainy,0,29.88,Spring
+2022-12-01,S002,P0007,Groceries,West,78,46,122,42.11,68.01,15,Snowy,1,65.88,Winter
+2022-12-01,S002,P0012,Groceries,South,67,51,80,62.79,62.03,10,Cloudy,1,65.75,Autumn
+2022-12-01,S002,P0017,Groceries,North,67,61,110,68.15,84.23,0,Sunny,0,87.71,Spring
+2022-12-01,S002,P0018,Groceries,North,303,149,59,141.44,28.01,15,Sunny,1,24.0,Summer
+2022-12-01,S003,P0002,Groceries,West,296,58,64,63.1,22.65,20,Cloudy,0,19.36,Spring
+2022-12-01,S003,P0003,Groceries,South,68,20,158,27.63,26.57,20,Rainy,1,29.8,Autumn
+2022-12-01,S003,P0005,Groceries,South,488,245,29,253.43,99.72,10,Cloudy,0,100.02,Summer
+2022-12-01,S003,P0006,Groceries,West,268,106,99,96.7,69.2,20,Sunny,1,66.31,Autumn
+2022-12-01,S003,P0012,Groceries,East,302,298,57,302.66,36.98,0,Rainy,0,39.58,Spring
+2022-12-01,S003,P0013,Groceries,East,480,259,53,257.7,82.47,15,Sunny,0,77.97,Summer
+2022-12-01,S004,P0004,Groceries,East,127,116,68,107.5,87.36,15,Snowy,1,88.44,Spring
+2022-12-01,S004,P0016,Groceries,North,77,31,196,22.08,82.17,0,Cloudy,1,78.42,Spring
+2022-12-01,S005,P0009,Groceries,North,297,268,86,264.51,80.18,10,Cloudy,0,83.41,Autumn

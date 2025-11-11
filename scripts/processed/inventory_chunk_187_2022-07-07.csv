@@ -1,0 +1,24 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-07-07,S001,P0005,Groceries,East,96,66,58,81.76,94.94,15,Sunny,1,92.92,Winter
+2022-07-07,S001,P0006,Groceries,East,479,403,185,416.03,96.67,5,Cloudy,0,99.49,Spring
+2022-07-07,S001,P0007,Groceries,North,291,237,137,256.45,91.95,5,Sunny,1,95.14,Autumn
+2022-07-07,S001,P0011,Groceries,South,190,0,87,-9.99,77.12,0,Cloudy,0,74.9,Winter
+2022-07-07,S001,P0012,Groceries,South,116,108,169,119.19,73.23,15,Sunny,0,76.82,Spring
+2022-07-07,S001,P0013,Groceries,North,324,252,147,260.25,33.02,15,Snowy,0,31.68,Summer
+2022-07-07,S001,P0019,Groceries,South,399,151,124,169.58,20.38,10,Rainy,1,20.85,Spring
+2022-07-07,S002,P0010,Groceries,North,238,121,121,118.32,26.02,10,Snowy,1,28.07,Autumn
+2022-07-07,S002,P0012,Groceries,South,358,16,194,23.67,17.03,5,Sunny,1,13.51,Winter
+2022-07-07,S002,P0018,Groceries,South,321,143,59,141.31,41.22,0,Rainy,1,39.24,Summer
+2022-07-07,S003,P0001,Groceries,North,235,107,177,107.59,88.95,20,Cloudy,1,86.11,Summer
+2022-07-07,S003,P0003,Groceries,South,438,162,172,170.23,38.7,20,Cloudy,1,42.19,Autumn
+2022-07-07,S003,P0004,Groceries,North,177,14,200,23.17,12.26,15,Rainy,0,9.79,Autumn
+2022-07-07,S003,P0006,Groceries,East,222,34,192,40.1,45.93,10,Rainy,0,46.35,Autumn
+2022-07-07,S003,P0011,Groceries,North,442,297,53,302.21,63.45,20,Rainy,0,61.64,Summer
+2022-07-07,S003,P0016,Groceries,West,178,73,148,69.76,12.48,10,Sunny,1,9.85,Autumn
+2022-07-07,S004,P0003,Groceries,South,395,260,77,276.47,75.92,5,Cloudy,1,72.21,Autumn
+2022-07-07,S004,P0009,Groceries,North,218,151,35,144.72,60.64,0,Snowy,0,56.59,Summer
+2022-07-07,S004,P0020,Groceries,East,110,44,120,48.39,74.8,20,Sunny,1,73.76,Spring
+2022-07-07,S005,P0004,Groceries,East,458,167,186,171.08,64.5,15,Snowy,0,65.56,Spring
+2022-07-07,S005,P0006,Groceries,East,50,29,135,47.95,34.15,20,Rainy,0,36.15,Summer
+2022-07-07,S005,P0007,Groceries,West,349,213,148,205.75,11.92,0,Snowy,1,16.01,Winter
+2022-07-07,S005,P0020,Groceries,East,311,79,59,96.98,93.82,10,Snowy,0,97.86,Winter

@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2022-03-02,S001,P0001,Groceries,South,216,93,120,105.56,58.52,15,Snowy,1,58.92,Winter
+2022-03-02,S001,P0003,Groceries,East,60,50,173,56.52,89.13,15,Sunny,0,90.55,Winter
+2022-03-02,S001,P0007,Groceries,South,383,256,187,259.53,65.17,15,Rainy,0,66.87,Summer
+2022-03-02,S001,P0013,Groceries,North,500,302,65,321.57,31.84,20,Sunny,0,36.36,Winter
+2022-03-02,S001,P0019,Groceries,East,126,115,131,118.4,14.25,15,Rainy,0,17.8,Autumn
+2022-03-02,S002,P0005,Groceries,North,162,42,194,53.81,55.3,5,Snowy,1,59.75,Spring
+2022-03-02,S002,P0007,Groceries,East,309,20,133,27.87,94.73,0,Rainy,1,92.29,Autumn
+2022-03-02,S002,P0010,Groceries,East,316,257,196,256.97,42.27,5,Snowy,1,44.31,Winter
+2022-03-02,S002,P0015,Groceries,North,290,162,129,177.86,90.75,20,Sunny,0,92.14,Summer
+2022-03-02,S002,P0016,Groceries,West,357,207,185,212.17,50.88,15,Snowy,1,49.26,Autumn
+2022-03-02,S002,P0017,Groceries,East,170,78,42,76.68,79.77,0,Rainy,1,81.14,Autumn
+2022-03-02,S003,P0004,Groceries,East,231,76,35,87.93,94.54,0,Snowy,1,91.38,Spring
+2022-03-02,S003,P0010,Groceries,South,89,26,57,44.87,83.35,5,Cloudy,1,88.13,Autumn
+2022-03-02,S003,P0017,Groceries,North,195,14,157,32.38,94.19,15,Cloudy,0,97.21,Summer
+2022-03-02,S003,P0018,Groceries,West,332,172,42,185.31,31.5,20,Rainy,0,33.79,Spring
+2022-03-02,S004,P0004,Groceries,South,217,69,71,62.91,40.51,5,Rainy,1,40.22,Summer
+2022-03-02,S004,P0012,Groceries,East,266,132,165,147.45,30.01,20,Cloudy,0,26.95,Autumn
+2022-03-02,S004,P0013,Groceries,North,361,76,71,93.25,87.25,20,Sunny,1,89.66,Autumn
+2022-03-02,S004,P0015,Groceries,South,82,33,47,26.6,15.06,5,Snowy,0,17.04,Summer
+2022-03-02,S005,P0001,Groceries,West,225,198,94,208.37,73.98,20,Rainy,0,76.32,Autumn
+2022-03-02,S005,P0013,Groceries,North,432,191,109,199.48,87.4,0,Cloudy,1,91.92,Summer
+2022-03-02,S005,P0016,Groceries,West,198,24,89,37.32,29.27,20,Snowy,0,29.07,Summer

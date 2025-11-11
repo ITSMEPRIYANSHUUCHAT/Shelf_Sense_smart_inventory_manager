@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-03-12,S001,P0002,Groceries,West,160,60,79,70.14,75.83,5,Rainy,1,79.38,Summer
+2023-03-12,S001,P0014,Groceries,North,144,21,20,36.24,91.74,0,Rainy,1,88.54,Autumn
+2023-03-12,S001,P0019,Groceries,North,154,92,90,82.96,25.4,20,Cloudy,0,28.49,Winter
+2023-03-12,S002,P0002,Groceries,North,433,146,171,149.6,49.85,20,Sunny,1,48.1,Winter
+2023-03-12,S002,P0008,Groceries,West,70,25,104,37.68,44.81,10,Snowy,0,43.19,Spring
+2023-03-12,S002,P0012,Groceries,North,230,26,183,37.09,46.26,15,Sunny,0,43.95,Spring
+2023-03-12,S002,P0018,Groceries,South,422,275,176,278.45,46.54,20,Rainy,0,46.29,Summer
+2023-03-12,S003,P0003,Groceries,North,238,225,125,218.85,92.4,10,Sunny,0,97.23,Summer
+2023-03-12,S003,P0005,Groceries,East,385,382,32,388.06,89.27,15,Snowy,0,91.22,Winter
+2023-03-12,S003,P0009,Groceries,West,204,139,46,152.19,17.62,15,Cloudy,1,19.44,Autumn
+2023-03-12,S003,P0013,Groceries,North,305,208,58,211.41,59.74,15,Rainy,1,61.21,Autumn
+2023-03-12,S003,P0016,Groceries,South,346,152,127,159.76,77.69,15,Cloudy,0,76.14,Winter
+2023-03-12,S003,P0018,Groceries,North,344,226,183,222.93,86.36,0,Snowy,0,84.94,Summer
+2023-03-12,S004,P0009,Groceries,South,372,92,164,84.39,92.2,20,Rainy,0,96.31,Autumn
+2023-03-12,S004,P0011,Groceries,East,476,356,180,371.13,22.82,20,Snowy,1,25.19,Spring
+2023-03-12,S004,P0014,Groceries,West,344,303,44,304.62,18.44,20,Cloudy,1,20.61,Summer
+2023-03-12,S005,P0003,Groceries,West,424,325,54,331.91,74.89,0,Cloudy,1,73.35,Autumn
+2023-03-12,S005,P0004,Groceries,North,407,275,60,292.83,39.32,0,Sunny,1,37.92,Winter
+2023-03-12,S005,P0008,Groceries,North,242,55,119,58.22,31.48,0,Cloudy,1,28.14,Summer
+2023-03-12,S005,P0012,Groceries,West,231,90,192,107.23,27.14,10,Snowy,0,26.82,Summer
+2023-03-12,S005,P0017,Groceries,South,223,6,183,19.5,18.77,0,Snowy,1,18.54,Autumn
+2023-03-12,S005,P0020,Groceries,East,427,20,162,10.49,52.75,10,Rainy,1,49.95,Summer

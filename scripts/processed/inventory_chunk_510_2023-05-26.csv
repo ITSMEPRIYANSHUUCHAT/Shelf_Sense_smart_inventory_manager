@@ -1,0 +1,23 @@
+Date,Store ID,Product ID,Category,Region,Inventory Level,Units Sold,Units Ordered,Demand Forecast,Price,Discount,Weather Condition,Holiday/Promotion,Competitor Pricing,Seasonality
+2023-05-26,S001,P0004,Groceries,East,414,113,151,123.88,34.77,5,Snowy,0,36.4,Summer
+2023-05-26,S001,P0009,Groceries,South,73,30,147,21.38,53.45,0,Snowy,0,52.16,Winter
+2023-05-26,S001,P0010,Groceries,West,164,87,186,89.4,36.23,10,Snowy,1,36.78,Autumn
+2023-05-26,S002,P0008,Groceries,North,410,14,39,26.84,39.97,5,Sunny,0,42.59,Winter
+2023-05-26,S002,P0012,Groceries,West,220,122,70,130.84,47.74,5,Sunny,0,49.38,Summer
+2023-05-26,S003,P0007,Groceries,East,218,138,50,139.08,87.99,0,Rainy,0,83.45,Autumn
+2023-05-26,S003,P0013,Groceries,West,291,5,94,14.68,22.81,20,Snowy,0,22.31,Autumn
+2023-05-26,S003,P0015,Groceries,South,378,143,140,137.2,54.87,0,Snowy,0,50.23,Spring
+2023-05-26,S003,P0017,Groceries,West,336,264,47,260.27,72.32,15,Rainy,0,75.7,Spring
+2023-05-26,S004,P0008,Groceries,West,436,111,134,128.79,49.46,0,Rainy,0,50.73,Autumn
+2023-05-26,S004,P0011,Groceries,South,309,70,159,80.87,88.17,5,Snowy,1,86.2,Spring
+2023-05-26,S004,P0012,Groceries,South,491,462,199,472.82,50.32,20,Rainy,0,54.85,Winter
+2023-05-26,S004,P0015,Groceries,North,348,82,177,79.56,37.31,5,Snowy,0,41.37,Winter
+2023-05-26,S004,P0018,Groceries,West,282,209,123,208.81,24.64,5,Rainy,1,25.51,Autumn
+2023-05-26,S005,P0003,Groceries,North,125,6,47,24.04,87.18,10,Snowy,1,85.08,Winter
+2023-05-26,S005,P0004,Groceries,South,104,3,27,0.21,35.38,20,Cloudy,1,36.28,Summer
+2023-05-26,S005,P0006,Groceries,East,397,320,68,333.23,91.38,5,Cloudy,0,86.5,Spring
+2023-05-26,S005,P0009,Groceries,West,190,111,170,105.56,56.72,20,Rainy,1,61.1,Autumn
+2023-05-26,S005,P0010,Groceries,East,196,17,59,20.45,32.73,0,Cloudy,0,35.08,Autumn
+2023-05-26,S005,P0012,Groceries,East,324,176,191,188.86,63.02,5,Cloudy,0,63.3,Spring
+2023-05-26,S005,P0015,Groceries,North,443,110,21,105.93,64.25,0,Cloudy,1,68.12,Spring
+2023-05-26,S005,P0020,Groceries,East,220,117,47,116.11,74.06,15,Cloudy,1,71.28,Autumn
